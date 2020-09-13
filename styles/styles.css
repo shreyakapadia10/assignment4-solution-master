@@ -1,0 +1,17 @@
+a[ui-sref]{
+  font-size: 1.2em;
+}
+
+body{
+  padding-left: 15px;
+}
+
+li[ui-sref]:hover{
+  display: inline;
+  border-bottom: solid 2px blue;
+  padding: 0px 5px 0px 5px;
+  color: blue;
+  background: pink;
+  font-size: 1.3em;
+  font-style: italic;
+}

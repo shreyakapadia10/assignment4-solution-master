@@ -1,0 +1,9 @@
+<u><h2> {{ itemdetail.items.category.name }} </h2></u>
+<h4 ng-if="itemdetail.items.category.special_instructions != ''"> <b>Special Instructions:</b> {{ itemdetail.items.category.special_instructions }} </h4>
+<ol>
+  <li ng-repeat="item in itemdetail.items.menu_items">
+        <b>Item Short Name:</b> {{ item.short_name }} <br>
+        <b>Item Name:</b> {{ item.name }} <br>
+        <b ng-if="item.description != '' ">Item Description:</b> {{ item.description }} <br>
+  </li>
+</ol>

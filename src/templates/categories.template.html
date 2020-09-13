@@ -1,0 +1,7 @@
+<ol>
+  <li ng-repeat="category in $ctrl.items"
+      ui-sref='categories.itemdetail({ short_name: category.short_name, category: category.name, inst: category.special_instructions })'>
+        {{ category.name }}
+  </li>
+</ol>
+<ui-view></ui-view>
